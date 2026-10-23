@@ -1,10 +1,8 @@
 //
 //
 // Q1 - task_1
-/**
-  
-   import 'dart:js_interop';
 
+import 'dart:js_interop';
 
 double calculateTotal(double a, double b, double c) => a + b + c;
 double calculateAverage(double total) => total / 3;
@@ -14,11 +12,10 @@ void main() {
   double average = calculateAverage(total);
   String result = getResult(average);
 
-  print(total); 
+  print(total);
   print(average);
   print(result);
 }
-
 
 //
 //
@@ -116,7 +113,6 @@ void main() {
   myAccount.deposit(900);
   myAccount.withdraw(100);
 }
-*/
 
 //
 //
